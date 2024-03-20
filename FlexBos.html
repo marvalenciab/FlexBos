@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UFT-8" />
+    <meta name="viewport" content="width=devide-width, initial-scale=10" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>MaquetandoFlexBos</title>
+    <style>
+      .container {
+        background-color: aliceblue;
+        height: 100%;
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-radius: 10px;
+        padding: 10px;
+      }
+      .cajaA {
+        flex-basis: 975px;
+        border-radius: 2px;
+        text-align: center;
+        background-color: cadetblue;
+        justify-content: center;
+        border: thin solid #000;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      .items1 {
+        display: flex;
+        text-align: center;
+        background-color: rgb(223, 111, 111);
+        width: 100%;
+        justify-content: center;
+      }
+      .items2 {
+        display: flex;
+        text-align: center;
+        background-color: rgb(200, 156, 241);
+        justify-content: center;
+      }
+      .cajaH {
+        text-align: center;
+        justify-content: center;
+        background-color: wheat;
+        flex-basis: 243.75px;
+        box-sizing: border-box;
+        border: thin solid #000;
+      }
+      .cajaB,
+      .cajaC,
+      .cajaD {
+        border: thin solid #000;
+        width: 243.75px;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+      .cajaE,
+      .cajaF,
+      .cajaG {
+        border: thin solid #000;
+        flex-basis: 243.75px;
+        box-sizing: border-box;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="cajaA">
+        <h3>A</h3>
+      </div>
+      <div class="items">
+        <div class="items1">
+          <div class="cajaB"><h3>B</h3></div>
+          <div class="cajaC"><h3>C</h3></div>
+          <div class="cajaD"><h3>D</h3></div>
+        </div>
+        <div class="items2">
+          <div class="cajaE"><h3>E</h3></div>
+          <div class="cajaF"><h3>F</h3></div>
+          <div class="cajaG"><h3>G</h3></div>
+        </div>
+      </div>
+      <div class="cajaH"><h3>H</h3></div>
+    </div>
+  </body>
+</html>
